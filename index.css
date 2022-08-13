@@ -4,13 +4,13 @@ body {
 }
 
 main {
-    width:50%;
-    height:80%;
+    width: 50%;
+    height: 70%;
     margin: 10% 25%;
     position: relative;
-    background:#efefef;
-    border-top:10px solid red;
-    border-bottom:10px solid green;
+    background: #efefef;
+    border-top: 10px solid red;
+    border-bottom: 10px solid green;
 }
 
 main::before,
