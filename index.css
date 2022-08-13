@@ -1,0 +1,26 @@
+main {
+    width:50%;
+    height:80%;
+    position: relative;
+    background:#efefef;
+    border-top:10px solid red;
+    border-bottom:10px solid green;
+}
+
+main::before,
+main::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+}
+
+.borders::before {
+    left: 0;
+}
+
+.borders::after {
+    right: 0;
+}
