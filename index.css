@@ -4,29 +4,7 @@ body {
 }
 
 main {
-    width: 80%;
-    height: 70%;
-    margin: 10% 10%;
-    position: relative;
-    background: #efefef;
-    border-top: 10px solid red;
-    border-bottom: 10px solid green;
-}
-
-main::before,
-main::after {
-    content: '';
-    position: absolute;
-    width: 10px;
-    top: 0;
-    bottom: 0;
-    background-color: #000;
-}
-
-.borders::before {
-    left: 0;
-}
-
-.borders::after {
-    right: 0;
+    max-width: 80rem;
+    max-height: 300rem;
+    margin: 15vh auto;
 }
