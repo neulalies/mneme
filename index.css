@@ -6,6 +6,7 @@ body {
 main {
     width:50%;
     height:80%;
+    margin: 10% 25%;
     position: relative;
     background:#efefef;
     border-top:10px solid red;
